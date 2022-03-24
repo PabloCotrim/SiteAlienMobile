@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" width="32" href="https://cdn-icons-png.flaticon.com/512/1083/1083598.png">
+    <title>AlienMusic</title>
+    <style>
+        body{
+
+        }
+
+        main{
+            background-color: rgb(0, 0, 0);
+            min-width: 100px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .card{
+            width: 100%;
+           
+        }
+
+    </style>
+</head>
+<main>
+<body>
+    <!--- menu navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light nav-bg">
+        <a class="navbar-brand" href="#"><img src="https://cdn-icons-png.flaticon.com/512/3306/3306594.png" alt="" width="50px"> AlienMusic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Instagram</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        Mais Conteudos</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Fotos</a>
+                        <a class="dropdown-item" href="#">Videos</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Musicas</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!--- menu navbar-->
+
+    <!---carousel--->
+    <div id="carouselExampleCaptions" class="carousel slide w-75 m-auto" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://d3vhc53cl8e8km.cloudfront.net/artists/2042/67cqb9hmEG8H8HrpZAcOd4OEqfgMAhzYA8HLxHAc.jpeg" class="d-block w-100" alt="captain hook">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Arraste para o lado.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img width="800" src="http://ozorafestival.eu/wp-content/uploads/2020/03/Astrix.png" class="d-block w-100" alt="astrix">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="http://djmagbr.com/wp-content/uploads/2022/02/Vegas-DJ-Mag-Dilson-Ferreira.jpg" class="d-block w-100" alt="vegas">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+    <!--div coluna1-->
+    <!---carousel--->
+
+    <!--junbotrom-->>
+    <div class="bg-light text-center">
+        <h1 class="display-4">Best Dj for me</h1>
+
+    </div>
+    <!--/junbotrom-->
+
+
+    <div class="container-fluid mt-5 text-center m-auto w-75 text-black">
+        <div class="row">
+            <div class="col-4">
+                <!-- divisão de linhas e colunas  -->
+
+                <!-- CARD -->
+                <div class="card " style="width: 100%; background-color: rgb(6, 150, 18); ">
+
+                    <img src="https://www.scdn.co/i/_global/twitter_card-default.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Musicas</h5>
+                        <p class="card-text">Veja algumas musicas dos dj's acima</p>
+                        <a href="#"
+                            class="btn btn-primary">
+                            Veja</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 100%; background-color: rgb(6, 150, 18);">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Site oficial dos principais festivais</h5>
+                        <p class="card-text">Acompanhe as ultimas noticias sobre os ultimos Festivais</p>
+                        <a href="#"
+                            class="btn btn-primary">Veja</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 100%;background-color: rgb(6, 150, 18); ">
+                    <img src="https://media.istockphoto.com/vectors/green-alien-face-with-large-eyes-isolated-on-white-background-head-vector-id862625674?k=20&m=862625674&s=170667a&w=0&h=q9c3kHudtmWUfPFj5hLbvgzxzMBrshIsts6v7_xo8m8=" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Loja online </h5>
+                        <p class="card-text">Compre os produtos oficiais da AlienMusic</p>
+                        <a href="#" class="btn btn-primary ">
+                            Veja</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- CARD -->
+
+    <p class="p1">Musicas</p>
+
+    <!-- iframe-->
+    <div class="container mt-5 m-auto w-75">
+        <div class="row">
+            <div class="col-4">
+     <iframe width="100%" src="https://www.youtube.com/embed/YfPT30UVtP0" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+                </div>
+            
+            
+            <div class="col-4">
+    <iframe width="100%" src="https://www.youtube.com/embed/NhQLBqtqZpE" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+
+        <div class="col-4">
+    <iframe width="100%" src="https://www.youtube.com/embed/LwDOlOy7s8U" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+</div>
+</div>       
+    <!---iframe-->
+
+    <!--imagens-->
+    <div class="container mt-5 m-auto w-75">   
+
+
+    </div>
+  
+    <!--imagens-->
+
+
+    <!-- Footer -->
+    <footer class="text-center text-black" style="background-color: rgb(255, 255, 255);">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- GitHub -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/PabloCotrim" target="_blank" role="button"><i
+                        class="fab fa-github-f"></i> <img width="62" src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" alt="github"> </a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/cotrim_99/" target="_blank" role="button"><i class="fab fa-instagram">
+                        <img width="62" src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" alt="instagram"></i></a>
+
+                <!-- Gmail -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://mail.google.com/mail/u/0/?tab=wm#inbox" target="_blank" role="button"><i class="fab fa-gmail"><img  
+                    width="62" src="https://cdn-icons-png.flaticon.com/512/888/888853.png" alt="gmail"></i></a>
+
+                <!-- whatsapp -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://contate.me/pablocotrim" target="_blank" role="button"><i
+                        class="fab fa-instagram"><img width="62" src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="whatsapp"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/pablo-cotrim-ba5689181/" target="_blank" role="button"><i
+                        class="fab fa-linkedin-in"><img width="62" src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1648005634~hmac=240be7408541bbf4298a225c8f4628d7" alt="linkedin"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" class="form-control" />
+                                <label class="form-label" for="form5Example21">Email address</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    Entre em contato via email no box acima, ou clicando nos icones ira ser direcionado aos meus perfis de redes sociais para contato diretamente comigo.
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+                <p> AlienMusic</p>
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase"></h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase"></h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase"></h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase"></h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div width="50" class="text-center p-3" style="background-color: rgb(255, 255, 255);">
+            Direitos Reservados a Pablo Cotrim 2022 @Copyright
+            <a class="text-white" href="https://mdbootstrap.com/"></a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    </main>
+   </body>
+
+</html>
